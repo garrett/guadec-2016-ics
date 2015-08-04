@@ -10,3 +10,9 @@
 ## Usage
 
 `./schedule2ics.rb > output/guadec-2015-schedule.ics`
+
+## Add to your calendar
+
+If you don't care about generating an `.ics`, you can just reference the following URL in your calendar:
+
+<https://raw.githubusercontent.com/garrett/guadec-2015-ics/master/output/guadec-2015-schedule.ics>
