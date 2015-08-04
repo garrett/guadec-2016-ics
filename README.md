@@ -1,5 +1,5 @@
 # guadec-2015-ics
-.ics generator based on the official GUADEC table of events
+.ics generator based on [the official GUADEC schedule of events](https://2015.guadec.org/schedule/)
 
 ## Setup
 
