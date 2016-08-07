@@ -1,0 +1,857 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:icalendar-ruby
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:UTC
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:b022e2ef-f1cc-4f73-904b-894f82ca3648
+DTSTART:20160811T190000
+DTEND:20160811T235900
+DESCRIPTION:Pre-registration meeting in the AKK beer garden (on campus) and
+  BBQ there. We will provide food\, drinks are inexpensive but not free. Bri
+ ng cash for payment.
+LOCATION:Elsewhere
+SUMMARY:BBQ at AKK — AKK and GUADEC Teams
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:0ca48e32-0d9a-4983-9e65-22b5810828eb
+DTSTART:20160811T090000
+DTEND:20160811T180000
+DESCRIPTION:
+LOCATION:Elsewhere
+SUMMARY:Workshops
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:9d54e93b-2ac0-4a31-b065-668e6d1094a3
+DTSTART:20160812T153000
+DTEND:20160812T160000
+DESCRIPTION:Flow graphs are awesome. Like no other widget\, they feel intui
+ tive and are straightforward to use.\n\nIn this talk\, you will be taken on
+  a short tour that shows you where to find flow graphs in common Free softw
+ are.\n\nThen\, we will look at libgtkflow\, a library built upon the GNOME 
+ stack that makes it easy for you to use flow graphs in your own Gtk-based a
+ pplications.\n\nAfter this we will discuss the future use of flow graphs in
+  GNOME-related software.
+LOCATION:Room 1
+SUMMARY:Flow graphs in GNOME and Gtk+ — grindhold
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:adfec91d-58e7-4759-a443-d2c0b9f3ef7f
+DTSTART:20160812T163000
+DTEND:20160812T170000
+DESCRIPTION:Many new terms have entered the GTK vocabulary the last year\, 
+ like gadgets\, CSS nodes or box models.\n\nThis talk will explain and showc
+ ase these new developments in GTK's rendering pipeline and attempt an outlo
+ ok into the future.
+LOCATION:Room 1
+SUMMARY:Inspector Gadget — Benjamin Otte
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:ee2d9581-d60d-4398-9e04-1f69686e083d
+DTSTART:20160812T110000
+DTEND:20160812T114500
+DESCRIPTION:Flatpak (previously xdg-app) is a new system for desktop applic
+ ation bundling and deployment. It allows you to build an application once a
+ nd then deploy on all Linux distributions\, running in a sandboxed environm
+ ent.\n\nThis talk will give a status update on where Flatpak is as a projec
+ t\, and how GNOME is using it. Then it will talk about future plans\, focus
+ ing on what is needed going forward to make GNOME applications work well in
+  a sandboxed environment.
+LOCATION:Room 1
+SUMMARY:Flatpak status update and future plans — Alexander Larsson
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:8aee31eb-7b3e-48f2-9072-1789c69716a4
+DTSTART:20160812T150000
+DTEND:20160812T153000
+DESCRIPTION:Major Linux distributions have a problem with WebKit security. 
+ Whereas major desktop browsers push automatic security updates directly to 
+ users on a regular basis so that users donât have to worry about updates\
+ , Linux users are dependent on their distributions to release updates. Well
+  over 100 vulnerabilities that could allow remote code execution were fixed
+  in WebKit last year\, so getting updates out to users is critical. This ta
+ lk examines the disconnect between how the WebKit project handles security 
+ issues upstream and how different major distributions do (or do not) handle
+  security issues\, shows that WebKit security issues have widespread impact
+  even for users who do not use a WebKit-based web browser\, and discusses t
+ he security consequences of the split between the original WebKit API and W
+ ebKit2.
+LOCATION:Room 1
+SUMMARY:WebKit security updates — Michael Catanzaro
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:f8d4d739-de62-495d-aef5-3f6c18cba85b
+DTSTART:20160812T170000
+DTEND:20160812T173000
+DESCRIPTION:Structured logging is a handy feature of modern log systems\, l
+ ike journald. GLib is growing functionality to allow applications to export
+  log messages in structured form\, which allows developers and sysadmins to
+  more easily search and sort log messages to find what they're looking for.
+ \n\nThis talk will introduce the new APIs and give an overview of how appli
+ cations and libraries should log in the new world order.
+LOCATION:Room 1
+SUMMARY:A GLib look at structured logging — Philip Withnall
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:b3fee2a6-26ef-4631-add6-0b8dff92c7aa
+DTSTART:20160812T114500
+DTEND:20160812T123000
+DESCRIPTION:GNOME Software is an project that started life as an applicatio
+ n installer\, and over time picked up features such as updating system firm
+ ware\, distribution upgrades\, installation of fonts\, codecs\, language pa
+ cks\, and handling RPM files and Flatpak bundles. With screenshots\, long d
+ escriptions and now user-submitted ratings and reviews we're on parity with
+  several other appstores like the Google play store and provide a fast\, st
+ able and beautiful software center for Fedora. In this talk I will explain 
+ about how we built this beast\, show off some new features and also talk ab
+ out the future. I'll allow lots of time for questions and comments.\n\nNote
+ s: This is a talk that Richard Hughes is going to present at Flock and me a
+ t GUADEC. Also happy to do a short version of it if a 25 minute slot works 
+ better schedule wise.
+LOCATION:Room 1
+SUMMARY:GNOME Software: you'll never guess what comes next — Kalev Lember
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:5e46d4b7-53da-4e48-bab7-7b09ae27b19c
+DTSTART:20160812T180000
+DTEND:20160812T190000
+DESCRIPTION:Lightning talks of Google Summer of Code and Outreachy interns
+LOCATION:Room 1
+SUMMARY:Intern lightning talks — GSoC and Outreachy Interns
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:7759febc-6135-4bf3-8c98-889ac0e02150
+DTSTART:20160812T173000
+DTEND:20160812T180000
+DESCRIPTION:25 minute slots for talks and discussion panels to be submitted
+  and selected by attendees on-site. This is your chance to present cutting 
+ edge developments or anything that did not make it into the normal schedule
+ .\n \nTalks will be selected and posted on the board at 16:00 on Friday\, 1
+ 3:30 on Saturday and 16:00 on Sunday.\n \nYou can propose talks throughout 
+ the day and other attendees will add a vote to the ones that they would lik
+ e to see. At the last break before the talk slot\, the talks with the most 
+ votes will be selected and scheduled\, so check the schedule board!
+LOCATION:Room 1
+SUMMARY:Unconference #1 — to be announced
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:720b318e-ebb2-4a07-ad8b-55edda0f07e3
+DTSTART:20160812T140000
+DTEND:20160812T150000
+DESCRIPTION:Despite what tablet- and phone-loving pundits say\, the laptop 
+ is here to stay. When a user wants to watch a movie on a train\, they reach
+  for the tablet first. But if they want to do actual\, real work\, they sti
+ ll prefer the laptop.\n\nMeanwhile\, software freedom should always be for 
+ everyone\, not just technical users and software developers. The GNOME proj
+ ect was one of the first in this history of Free Software to realize this\,
+  and seek to create a free software desktop that truly allowed everyone to 
+ enjoy the software freedom that those of us had already happily found with 
+ Bash and Emacs (or vi :) years before.\n\nThis keynote will discuss why GNO
+ ME remains best poised to deliver software freedom to everyone\, how GNOME 
+ continues to be the best welcome-mat for those who want software freedom\, 
+ and why GNOME remains absolutely essential to the advancement of software f
+ reedom for decades to come.
+LOCATION:Room 1
+SUMMARY:Keynote: Confessions of a command line geek: Why I don't use GNOME 
+ but everyone else should — Bradley Kuhn
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:7fb53f77-520b-4740-8cdd-2c7e4366e255
+DTSTART:20160812T100000
+DTEND:20160812T103000
+DESCRIPTION:
+LOCATION:Room 1
+SUMMARY:Opening — GUADEC Team
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:bfb7ad15-5547-428a-a150-e185837ce34d
+DTSTART:20160812T150000
+DTEND:20160812T153000
+DESCRIPTION:Since last year\, GNOME has sported a revamped newcomer experie
+ nce for developers with the move from GNOME Love to Newcomers (https://wiki
+ .gnome.org/Newcomers/). The talk is a joint talk by Bastian Ilso and Carlos
+  Soriano explaining what's new and what lies in the future for GNOME's newc
+ omers guide.
+LOCATION:Room 2
+SUMMARY:The GNOME Newcomers initative — Bastian Ilso
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:91b62570-0c94-4bc1-9fac-9464ea2eb196
+DTSTART:20160812T170000
+DTEND:20160812T173000
+DESCRIPTION:Open source projects are always understaffed. In this talk meth
+ ods to increase the public visibility of your project as well as gain\, kee
+ ping and grow newcomers to maintainers will be presented.\n\nAll methods ar
+ e shown on the practical example and how they have - or not have - proven t
+ o be useful for the coala community. They focus on lowering the entry barri
+ er as much as possible as well as rewarding successes and building a contin
+ uous learning process with the community.
+LOCATION:Room 2
+SUMMARY:Growing an Open Source community — Lasse Schuirmann
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:93974f17-d375-471a-9281-e076121f47bd
+DTSTART:20160812T153000
+DTEND:20160812T160000
+DESCRIPTION:GNOME provides a complete free software desktop. If you run it 
+ yourself you have all the benefits of free software\, the freedoms to use\,
+  study\, share\, and improve the software. You are in control of what you d
+ o with your computer.\n\nThe situation is different when using software whi
+ ch is run by others as a service\, even if these others run free software. 
+ There you don't have control about what software is run and how. What does 
+ that mean for your freedoms? How much control do you still have? Do you kno
+ w what is happening to your data? Do you have the freedom to switch to a di
+ fferent service? How is your own freedom affecting the freedom of other use
+ rs of the same service? There are a lot of questions like these.\n\nThere a
+ re a couple of approaches how to address these questions. There are the use
+ r data manifesto [1]\, the "Terms of Service\; Didn't Read" site [2]\, the 
+ GNU ethical repository criteria [3]\, and other attempts at covering specif
+ ic aspects of freedom of web services. But there is no definition yet what 
+ makes a web service free as in freedom\, which is as concise and elegant as
+  the free software definition is.\n\nThis presentation will give an overvie
+ w of where we are\, what approaches to defining the freedom of web services
+  exist\, and what is missing. It's intended to start a discussion which lea
+ ds to a definition of what a web service has to provide to give users the s
+ ame freedom as they have when running free software themselves. This is the
+  beginning of a journey and everybody who cares about freedom is invited to
+  join.\n\n[1]: https://userdatamanifesto.org/\n[2]: https://tosdr.org/\n[3]
+ : https://www.gnu.org/software/repo-criteria.en.html
+LOCATION:Room 2
+SUMMARY:What makes a web service free as in freedom? — Cornelius Schumacher
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:3fac26d0-77d7-4932-b3bb-3995949fc360
+DTSTART:20160812T110000
+DTEND:20160812T114500
+DESCRIPTION:The process of translate strings into different languages is kn
+ own as "localization". \nThis is because it is part of the software develop
+ ment lifecycle\, and it is the process of adapting the software into a spec
+ ific country/region/market. The talk will go through the localization workf
+ low in Gnome\, Fedora and Openstack\, and also introduce latest technology 
+ called 'Zanata' which can support successful localization environment for F
+ edora and Openstack.
+LOCATION:Room 2
+SUMMARY:How your package is being translatedâ¦ — Alex Eng\, Pravin Satpute
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:61fb107a-8daa-43ec-bb5a-7edbe7a952ef
+DTSTART:20160812T163000
+DTEND:20160812T170000
+DESCRIPTION:There are around 285 million visually impaired people in the wo
+ rld\, out of which around 38-39 million are completely blind. One interesti
+ ng fact is that over 15 million of blind people are from India\, and simila
+ rly a large number is from different developing or undeveloped countries\, 
+ and poor socioeconomic status. There is a lot of software available for acc
+ essibility\, and most of it is extremely unaccessible\, both economically a
+ nd socially. This is where Free Software comes in. Free Software desktops\,
+  especially GNOME\, have made large strides in accessibility in the last fe
+ w years\, and are proving to be an effective way of reaching these people\,
+  introducing them to a whole new world of computers. \n\nI'm going to talk 
+ about how Free Software enables people to expand upon accessibility softwar
+ e\, add regional languages\, and helps people in bad socioeconomic settings
+ . I'll then proceed to show a 2-3 minute demo of how the universal access f
+ eatures of GNOME work\, and what we need to improve.
+LOCATION:Room 2
+SUMMARY:Accessibility and the Free Desktop — Gaurav Pareek
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:095dcaa1-a5f1-437c-a870-9334995719f7
+DTSTART:20160812T114500
+DTEND:20160812T123000
+DESCRIPTION:Endless OS is an operating system based on GNOME\, and is one o
+ f the first real world deployments to make use of innovative distribution t
+ echnologies such as OSTree\, xdg-app and gnome-software.\n\nDuring this pre
+ sentation\, I will walk through the architecture of the operating system an
+ d the infrastructure that we use at Endless to maintain it and deploy it\, 
+ including the challenges we faced and what lies ahead for us.\n\n[Note: End
+ less OS is not at the moment available for download\, but it will be when G
+ UADEC comes around]
+LOCATION:Room 2
+SUMMARY:Anatomy of Endless OS — Cosimo Cecchi
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:31f65a54-20c6-4710-93ee-d221a8f2486f
+DTSTART:20160812T173000
+DTEND:20160812T180000
+DESCRIPTION:25 minute slots for talks and discussion panels to be submitted
+  and selected by attendees on-site. This is your chance to present cutting 
+ edge developments or anything that did not make it into the normal schedule
+ .\n \nTalks will be selected and posted on the board at 16:00 on Friday\, 1
+ 3:30 on Saturday and 16:00 on Sunday.\n \nYou can propose talks throughout 
+ the day and other attendees will add a vote to the ones that they would lik
+ e to see. At the last break before the talk slot\, the talks with the most 
+ votes will be selected and scheduled\, so check the schedule board!
+LOCATION:Room 2
+SUMMARY:Unconference #2 — to be announced
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:134b2123-9473-4034-9a84-20202f9ba210
+DTSTART:20160812T193000
+DTEND:20160812T230000
+DESCRIPTION:We are going to go to a park and picnic there. Some games\, lig
+ ht food\, and drinks will be provided.
+LOCATION:Elsewhere
+SUMMARY:Picnic — GUADEC Team
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:b1f1a0fa-83bc-4a79-8693-7580acbd0949
+DTSTART:20160812T093000
+DTEND:20160812T100000
+DESCRIPTION:
+LOCATION:Elsewhere
+SUMMARY:Venue opens
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:80135f00-ec81-4a3b-a868-5625066ee5b6
+DTSTART:20160812T103000
+DTEND:20160812T110000
+DESCRIPTION:
+LOCATION:Elsewhere
+SUMMARY:Break
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:4c4ea25e-be33-4e28-ab65-f4a7726da156
+DTSTART:20160812T123000
+DTEND:20160812T140000
+DESCRIPTION:
+LOCATION:Elsewhere
+SUMMARY:Lunch
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:a6a0ed9f-e5b0-447a-9e8f-f44ba0e0d7eb
+DTSTART:20160812T160000
+DTEND:20160812T163000
+DESCRIPTION:
+LOCATION:Elsewhere
+SUMMARY:Break
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:b51e4068-50bb-4f2a-981c-fb60274dc97a
+DTSTART:20160813T110000
+DTEND:20160813T113000
+DESCRIPTION:GTK is an old tool kit\; it turns 20 in 2007. While its history
+  is a long\, unbroken chain of progress\, GTK is\, at its heart\, heavily b
+ ased on how we used to do things in GUI tool kits two decades ago. Over the
+  past 5 years\, since the 3.0 release\, the GTK team has been hard at work 
+ into bringing the tool kit internals kicking and screaming into the XXI cen
+ tury. This has inevitably caused some friction with application developers\
+ , but it has also opened an entire world of possibilities.\n\nIn this talk 
+ I'll outline where we are coming from\, what has changed\, where we're goin
+ g in the future â and how we'll get there.
+LOCATION:Room 1
+SUMMARY:GTK: are we in the future\, yet? — Emmanuele Bassi
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:a6b0453f-8945-4aee-828e-e5ce5409895b
+DTSTART:20160813T100000
+DTEND:20160813T103000
+DESCRIPTION:... with the Meson build system on Linux\, and ~15x faster on W
+ indows.\n\nLast year\, Jussi Pakkanen (the maintainer of Meson) gave a talk
+  about improving the way GNOME apps are built by replacing Autotools with t
+ he Meson build system.\n\nThis year\, I'll be talking about how we at Centr
+ icular worked along exactly those lines and ported GStreamer\, GLib\, and i
+ ts core dependencies from Autotools to Meson. Besides the improvements in s
+ peed\, using Meson provided numerous advantages over Autotools such as clea
+ ner syntax\, better cross-platform support\, maintainable code\, and much m
+ ore.\n\nI will be talking about our porting journey and make the case that 
+ Meson is indeed ready for replacing Autotools in every case we've seen so f
+ ar. The next step is convincing more projects to try out Meson.
+LOCATION:Room 1
+SUMMARY:Making your GNOME app compile 2.4x faster — Nirbheek Chauhan
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:a9ef5ebc-b53c-4abe-bb37-37144353e30e
+DTSTART:20160813T114500
+DTEND:20160813T123000
+DESCRIPTION:While most of the developed world has decent internet access\, 
+ this is not universally distributed. In much of the developing world\, peop
+ le have very incomplete and spotty access to the internet.\n\nAt Endless\, 
+ we are shipping GNOME into that environment. We've had a number of challeng
+ es in modifying the desktop to work within these constraints. The end resul
+ t is a version of GNOME that is useful and relevant both with and without a
+  network enabled.
+LOCATION:Room 1
+SUMMARY:An asynchronous internet for GNOME — Jonathan Blandford
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:48090934-23ca-4ad7-8270-742b851cc268
+DTSTART:20160813T140000
+DTEND:20160813T143000
+DESCRIPTION:While there have been great strides in building the GTK+ stack 
+ on Windows\, cross-building for Windows from Linux is still the easiest way
+  for most developers to build their applications. I will demonstrate\, usin
+ g the Fedora MinGW project\, how to build a GTK+ application\, including a 
+ simple installer to bundle all the dependencies into a single distributable
+  file.
+LOCATION:Room 1
+SUMMARY:Building GTK+ applications for Windows with MinGW — David King
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:a45b9988-7598-4b0b-9a3f-5e8cfdc23f8e
+DTSTART:20160813T150000
+DTEND:20160813T190000
+DESCRIPTION:The Annual General Meeting of the GNOME Foundation and team rep
+ orts.
+LOCATION:Room 1
+SUMMARY:GNOME Foundation Annual General Meeting — GNOME Board
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:216993db-12e7-4bc3-8010-b37236a89cac
+DTSTART:20160813T143000
+DTEND:20160813T150000
+DESCRIPTION:25 minute slots for talks and discussion panels to be submitted
+  and selected by attendees on-site. This is your chance to present cutting 
+ edge developments or anything that did not make it into the normal schedule
+ .\n \nTalks will be selected and posted on the board at 16:00 on Friday\, 1
+ 3:30 on Saturday and 16:00 on Sunday.\n \nYou can propose talks throughout 
+ the day and other attendees will add a vote to the ones that they would lik
+ e to see. At the last break before the talk slot\, the talks with the most 
+ votes will be selected and scheduled\, so check the schedule board!
+LOCATION:Room 1
+SUMMARY:Unconference #3 — to be announced
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:13f0bfaa-f214-4d00-9fbd-3a808287483c
+DTSTART:20160813T140000
+DTEND:20160813T143000
+DESCRIPTION:An extension of gnome-continuous.\n\nA graph based application 
+ to be able to check the health of the GNOME Games built using Python and ne
+ o4j.\n-*- Check which gnome modules builds are failing/passing/timing out/m
+ issing from gnome-continuous builds\n-*- Find their dependencies\n-*- Run q
+ ueries on a graph to find out what possibly broke a module\; for example\, 
+ find out which dependencies are used exclusively by the failing modules as 
+ an indication that the dependency is broken\n\n** Source code: https://gith
+ ub.com/sahilsareen/GNOMEGamesHealthAnalytics\n** Demo: https://www.youtube.
+ com/watch?v=OUzUfVo77PI
+LOCATION:Room 2
+SUMMARY:GNOME Games graph based health analytics — Sahil Sareen
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:07196d30-8108-4698-a772-065fe0499e3a
+DTSTART:20160813T110000
+DTEND:20160813T113000
+DESCRIPTION:I will talk about GNOME application implementation on Fans Shoe
+ s Factory. How the impact of using Free Software can reduce cost/save the b
+ udget and improve employee skill\, and support FLOSS by becoming a sponsor 
+ for GNOME Asia Summit (2015 and 2016).
+LOCATION:Room 2
+SUMMARY:Story of a shoe factory — Ahmad Haris
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:21b87d12-3968-42d3-893c-5e9562df703e
+DTSTART:20160813T100000
+DTEND:20160813T103000
+DESCRIPTION:Many people who know of GNOME are involved in IT related areas.
+  For example\, they may be IT students\, work in R&D\, or be involved in a 
+ startup.\n\nBut what about other communities from mother to village officer
+  who just using computer for their daily activity. They just using computer
+  without knowing about OS in their computer\, without knowing about GNOME\,
+  about GNU/Linux\, or FOSS.\n\nThis session will talk about this\, how our 
+ community spread about GNOME to new people.
+LOCATION:Room 2
+SUMMARY:GNOME for non-technical use — Estu Fardani
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:869da359-f607-4021-85cc-ac51d07faef4
+DTSTART:20160813T114500
+DTEND:20160813T123000
+DESCRIPTION:With the success of connected cars\, there is an increasing dem
+ and for a secure\, consumer-oriented infotainment platform. The open source
+  application framework "Apertis" serves as embedded end-to-end solution in 
+ the automotive environment. With many contributions to the GNOME technologi
+ es over the years and its own Free software components\, Apertis is truly a
+  unique product in the automotive world which pushes the boundaries of a tr
+ aditionally closed source environment.\n\nSecurity is guaranteed by multipl
+ e lines of defense\, including MAC (Mandatory Access Control) and xdg-app a
+ s sandboxing mechanism. D-Bus provides a stable SDK-API to the app-develope
+ r.
+LOCATION:Room 2
+SUMMARY:Building an automotive platform from GNOME — Lukas Nack
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:1dbd2462-98c9-40b8-ad7f-bb7cb25981b8
+DTSTART:20160813T143000
+DTEND:20160813T150000
+DESCRIPTION:25 minute slots for talks and discussion panels to be submitted
+  and selected by attendees on-site. This is your chance to present cutting 
+ edge developments or anything that did not make it into the normal schedule
+ .\n \nTalks will be selected and posted on the board at 16:00 on Friday\, 1
+ 3:30 on Saturday and 16:00 on Sunday.\n \nYou can propose talks throughout 
+ the day and other attendees will add a vote to the ones that they would lik
+ e to see. At the last break before the talk slot\, the talks with the most 
+ votes will be selected and scheduled\, so check the schedule board!
+LOCATION:Room 2
+SUMMARY:Unconference #4 — to be announced
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:82935e5d-3fcb-46be-ae31-eb1ccb7460b8
+DTSTART:20160813T210000
+DTEND:20160813T235900
+DESCRIPTION:Bar evening at Z10. There will be no food available.
+LOCATION:Elsewhere
+SUMMARY:Z10 — Z10 and GUADEC Teams
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:4afeffa7-3bf6-4ee0-ab31-0b461b310703
+DTSTART:20160813T093000
+DTEND:20160813T100000
+DESCRIPTION:
+LOCATION:Elsewhere
+SUMMARY:Venue opens
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:ebf42b6f-fbfc-4853-8681-512449801a7b
+DTSTART:20160813T103000
+DTEND:20160813T110000
+DESCRIPTION:
+LOCATION:Elsewhere
+SUMMARY:Break
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:65ceb0bb-d128-4dae-94c3-9eb4e8997a65
+DTSTART:20160813T113000
+DTEND:20160813T114500
+DESCRIPTION:
+LOCATION:Elsewhere
+SUMMARY:Break
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:a925ad2d-6f27-462a-a0ac-562f8060b42c
+DTSTART:20160813T123000
+DTEND:20160813T140000
+DESCRIPTION:
+LOCATION:Elsewhere
+SUMMARY:Lunch
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:f81f7a4a-bd2c-4c1c-a532-c3bf6b77ff45
+DTSTART:20160814T153000
+DTEND:20160814T160000
+DESCRIPTION:This talk will cover basic information and possibilities of Qt 
+ Platform Abstraction and present actual result of our attempt to integrate 
+ Qt applications into GNOME\, namely QGnomePlatform and Adwaita-qt projects.
+LOCATION:Room 1
+SUMMARY:Integration of Qt applications — Jan Grulich
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:d7f8b8c0-b347-4cac-9332-6b2f0b2ff9b0
+DTSTART:20160814T163000
+DTEND:20160814T170000
+DESCRIPTION:An important aspect of humane interfaces is meeting the needs o
+ f a variety of people. They all have different skills\, restrictions and wh
+ ims. How do you figure out what exactly those are?\n\nIn this presentation 
+ I'll talk about how I used user interviews and personas for that purpose\, 
+ using them as tools for discussions and implementation of Public Transporta
+ tion in GNOME Maps.
+LOCATION:Room 1
+SUMMARY:One does not simply take a bus — Andreas Nilsson
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:f53d2a0c-0667-41dd-a827-9e53fcabb6b2
+DTSTART:20160814T150000
+DTEND:20160814T153000
+DESCRIPTION:Endless devices include a lot of content downloaded from the in
+ ternet so people without internet connections can have access to it. We cre
+ ate lots of apps to organize and present the content.\n\nWe are creating a 
+ "modular" system for putting together apps quickly\, and it's built on GTK.
+  (Think one level higher than GTK widgets.) I'll talk about what such a sys
+ tem should and shouldn't do\, and about pushing some of GTK's limits.
+LOCATION:Room 1
+SUMMARY:Modular UIs for offline content — Philip Chimento
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:85242f6c-69dd-46e8-a4fc-a3f516607797
+DTSTART:20160814T114500
+DTEND:20160814T123000
+DESCRIPTION:"ZeMarmot" is a project of 2D animation movie\, to be released 
+ under CC By-SA/Free Art licenses and fully made with creative Free Software
+ . In particular\, it is currently fully digitally drawn on GIMP\, video-edi
+ ted in Blender and sound-edited with Ardour.\nOur desktop of choice is GNOM
+ E\, under a GNU/Linux operating system.\n\nWe will present the film project
+  and its status\, what happened in the last year since we started the proje
+ ct\, but also how we contribute back\, since Jehan\, scenarist of ZeMarmot\
+ , has also been an active contributor of GIMP and other Free Software for s
+ everal years.\n\nFinally we would like to raise the question: is GNOME read
+ y for the creative artists? We may not have the full answer\, but a part of
+  it!\n\n----\n\nZeMarmot's director\, Aryeom Han\, is a young South Korean 
+ director of animation film\, whose first co-directed short animation got sc
+ reened in several festivals and won 2 prices\, and later worked on corporat
+ e videos and several projects. Together with Jehan\, they also won a "Firef
+ ox Flicks" price in 2012\, in "New Technology" category\, for an animation 
+ augmented through HTML5.\n\nAbout ZeMarmot: http://film.zemarmot.net/\nBlog
+ : http://girinstud.io/
+LOCATION:Room 1
+SUMMARY:ZeMarmot â Open Animation film produced with FOSS — Jehan PagÃ¨s\
+ , Aryeom Han
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:2b5d254d-19aa-46cf-9b0b-13e4d53c1406
+DTSTART:20160814T110000
+DTEND:20160814T114500
+DESCRIPTION:This talk will cover the basics of getting started writing a ne
+ w application with Builder. Christian will live demonstrate creating a proj
+ ect from scratch and share his techniques when writing software for GNOME.
+LOCATION:Room 1
+SUMMARY:Coding live! with Builder — Christian Hergert
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:7f5bc89d-609d-4201-ac10-422541055fee
+DTSTART:20160814T100000
+DTEND:20160814T103000
+DESCRIPTION:Have you ever wondered what the GNOME Foundation actually does?
+  What do the employees do to keep the Foundation running? I will cover the 
+ details on what is required to keep the Foundation active and solvent.  Com
+ e see the challenges we face and maybe even see what you can do to help!
+LOCATION:Room 1
+SUMMARY:A look behind the curtainâhow the Foundation runs — Rosanna Yuen
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:d4b663b7-e8fc-4c07-82d9-1824db85537b
+DTSTART:20160814T173000
+DTEND:20160814T180000
+DESCRIPTION:Fast-paced and focused talks on any and all subjects. You will 
+ be able to sign up for these on the day! Talks will be accepted on a first 
+ come\, first serve basis so turn up early if you want to make it on to the 
+ schedule. All talks will be subject to a strict time limit of 5 minutes on 
+ stage (including setup). Slides are welcome\, but not compulsory.
+LOCATION:Room 1
+SUMMARY:Lightning talks
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:ac5910c4-1d69-449c-bda4-ca463ed8060c
+DTSTART:20160814T170000
+DTEND:20160814T173000
+DESCRIPTION:25 minute slots for talks and discussion panels to be submitted
+  and selected by attendees on-site. This is your chance to present cutting 
+ edge developments or anything that did not make it into the normal schedule
+ .\n \nTalks will be selected and posted on the board at 16:00 on Friday\, 1
+ 3:30 on Saturday and 16:00 on Sunday.\n \nYou can propose talks throughout 
+ the day and other attendees will add a vote to the ones that they would lik
+ e to see. At the last break before the talk slot\, the talks with the most 
+ votes will be selected and scheduled\, so check the schedule board!
+LOCATION:Room 1
+SUMMARY:Unconference #5 — to be announced
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:6a4dfe0a-28d7-4cb6-93d6-1059ca45f96c
+DTSTART:20160814T140000
+DTEND:20160814T150000
+DESCRIPTION:The roots of the Internet can be found in the move from large m
+ ainframes to smaller and locally connected machines (Unices or VAXen) Unix.
+  Obviously there was a need to connect to remote machines in a convenient w
+ ay and not only with manually managed uucp networks.\n\nEventually in the m
+ id 90ies decentralization was achieved and directly visible due to Gopher a
+ nd the Web. With the move of the big search engines to a general service pr
+ oviders\, things started to revert to the former centralization.\n\nThe Int
+ ernet still looks like a collection of many computers but in reality most s
+ ystem do not anymore work without access to\, say\, apis.google.com. Unfort
+ unately desktops environments moved in the same direction.\nDo we really wa
+ nt to rely on other peoples machines?
+LOCATION:Room 1
+SUMMARY:We want more centralization\, do we? — Werner Koch
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:e0481e8c-864b-4b48-b4ec-edc9c2b61855
+DTSTART:20160814T180000
+DTEND:20160814T183000
+DESCRIPTION:
+LOCATION:Room 1
+SUMMARY:Closing — GUADEC Team
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:88b69fb3-496b-4071-a7af-f1135c6a3b1c
+DTSTART:20160814T163000
+DTEND:20160814T170000
+DESCRIPTION:China is becoming a huge user of open source software. The Chin
+ ese government doesn't only claim not to not use Windows 8\, but also  enco
+ urage the use of Linux\, like the city of Munich. All require a customized 
+ GNOME Desktop. We need to discuss how to meet a market of millions of deskt
+ ops.
+LOCATION:Room 2
+SUMMARY:GNOME: customized desktop for the government — Zhenning Li
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:49db3b92-5757-4eba-afd8-4df18113fdb0
+DTSTART:20160814T110000
+DTEND:20160814T114500
+DESCRIPTION:This is a summary of the infrastructure that GNOME provides to 
+ store secrets like passwords\, SSH and GPG keys\, and X.509 certificates.\n
+ \nOur infrastructure is more or less adequate within GNOME\, but it interfa
+ ces poorly with other pieces of infrastructure that people use\, like Firef
+ ox\, 2-Factor Authentication hardware\, and password managers for mobile de
+ vices.\n\nWe will describe some use cases and some ways in which GNOME coul
+ d be improved to accomodate cross-platform\, cross-device\, cross-team pass
+ word storage.
+LOCATION:Room 2
+SUMMARY:How do/could we store secrets in GNOME? — Federico Mena Quintero
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:853f3755-318f-48c1-8fc1-993cc697c35b
+DTSTART:20160814T153000
+DTEND:20160814T160000
+DESCRIPTION:This talk intents to introduce GNOME Music to the audience\, br
+ iefly go through it's development history\, analyze it's current state\, an
+ d announce the plans for the future.
+LOCATION:Room 2
+SUMMARY:GNOME Music: state of the union — Felipe Borges
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:adb4cf8b-765e-4f03-8919-81b16a1a8c21
+DTSTART:20160814T114500
+DTEND:20160814T123000
+DESCRIPTION:The traditional model of a GNOME desktop is tightly tied to the
+  traditional model of a Linux distribution: many packages that are individu
+ ally installed onto the users system\; some are low-level system services\,
+  some are core desktop components\, and some are applications. While in som
+ e ways very\nflexible\, this model is also fragile: the continuing correct 
+ operation of the system depends on a complex dance of installation and upgr
+ ades of thousands\nof packages. Systems based on free software components\,
+  from OLPC\, to ChromeOS\, to Android have moved away from this model\, but
+  are no longer recognizable as a Linux distribution.\n\nUpcoming releases o
+ f Fedora Workstation will offer an alternate installation method where the 
+ operating system is distributed as an ostree image and atomically upgraded 
+ as a whole\, while applications are installed on top as xdg-app bundles. Th
+ e intent is to provide an experience that is much more\nrobust than the tra
+ ditional package-based installation\, while providing additional flexibilit
+ y in installing applications. Applications will no\nlonger be strictly boun
+ d to the Fedora package set\, making it easy for third parties to provide a
+ pplications that work across multiple distributions and distribution versio
+ ns. The talk will go over the underlying technologies and discuss how they 
+ interact with a traditional distribution ecosystem\, and with\nthe evolving
+  ecosystem of xdg-app. There will also be discussion of how users\, such as
+  developers\, need to work differently on such a system\, and how we can be
+ st enable that.
+LOCATION:Room 2
+SUMMARY:Reworking the desktop distribution — Owen Taylor
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:33ceb62b-a91b-4689-8ebc-495e45f5516a
+DTSTART:20160814T150000
+DTEND:20160814T153000
+DESCRIPTION:A quick overview of what's been happening in the last few years
+ . Hear about where the different docs projects are heading\, all the things
+  that have been happening with the team and the most epic of hackfests wher
+ e the team worked on all the  docs.
+LOCATION:Room 2
+SUMMARY:Documentation: state of the union — Kat
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:7147147f-aa72-460c-b3fc-8d6937c60686
+DTSTART:20160814T170000
+DTEND:20160814T173000
+DESCRIPTION:25 minute slots for talks and discussion panels to be submitted
+  and selected by attendees on-site. This is your chance to present cutting 
+ edge developments or anything that did not make it into the normal schedule
+ .\n \nTalks will be selected and posted on the board at 16:00 on Friday\, 1
+ 3:30 on Saturday and 16:00 on Sunday.\n \nYou can propose talks throughout 
+ the day and other attendees will add a vote to the ones that they would lik
+ e to see. At the last break before the talk slot\, the talks with the most 
+ votes will be selected and scheduled\, so check the schedule board!
+LOCATION:Room 2
+SUMMARY:Unconference #6 — to be announced
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:07432fb2-77a5-456d-8afc-0fbcb6738169
+DTSTART:20160814T200000
+DTEND:20160814T235900
+DESCRIPTION:We are going to visit the beer garden at the Hoepfener Burg (lo
+ cal brewery) and have a sponsored dinner there.
+LOCATION:Elsewhere
+SUMMARY:Centricular Dinner at Hoepfener Burg
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:50c390d5-3bd1-4f8b-bbac-a68b8f2d7e97
+DTSTART:20160814T093000
+DTEND:20160814T100000
+DESCRIPTION:
+LOCATION:Elsewhere
+SUMMARY:Venue opens
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:c8db049d-280e-4821-a323-ad85e6807bcf
+DTSTART:20160814T103000
+DTEND:20160814T110000
+DESCRIPTION:
+LOCATION:Elsewhere
+SUMMARY:Break
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:a3702660-8956-4262-96c4-0f763d5f60a3
+DTSTART:20160814T123000
+DTEND:20160814T140000
+DESCRIPTION:
+LOCATION:Elsewhere
+SUMMARY:Lunch
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20160807T140645Z
+UID:3ba1816f-e637-4653-b9e8-d74fa7b85228
+DTSTART:20160814T160000
+DTEND:20160814T163000
+DESCRIPTION:
+LOCATION:Elsewhere
+SUMMARY:Break
+END:VEVENT
+END:VCALENDAR
