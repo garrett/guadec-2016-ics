@@ -1,5 +1,6 @@
 #!/bin/ruby
 
+require 'bundler'
 require 'rubygems'
 require 'nokogiri'
 require 'open-uri'
@@ -8,53 +9,29 @@ include Icalendar
 
 cal = Calendar.new
 
-page = Nokogiri::HTML(open('https://2015.guadec.org/schedule/'))
-
-dates = page.css('h3').map(&:text)
-tables = page.css('table')
-headers = page.css('table').first.css('th').map(&:text)
+xml = Nokogiri::HTML(open('https://static.gnome.org/guadec-2016/schedule.xml'))
+xml.encoding = 'utf-8'
 
 cal.timezone do |t|
   t.tzid = 'UTC'
 end
 
-tables.inject(0) do |i, table|
-  date = dates[i].split(', ').last.gsub(/(th|st|rd|nd)$/, '')
+xml.css('event').each do |ev|
+  duration = ev.css('duration').text.split(':').map(&:to_i)
+  time_start = Time.parse(ev.css('date').text)
+  time_end = time_start + (duration[0] * 60 * 60) + (duration[1] * 60)
+  title = ev.css('title').text.strip
+  speakertext = ev.css('person').map(&:text).join(', ')
+  keynote = ev.text.downcase.match('keynote') ? 'Keynote: ' : ''
+  sep = speakertext.to_s.empty? ? '' : ' — '
 
-  table.css('tbody tr').each do |row|
-    time = row.css('td').first.text.split(/[^0-9:]+/)
-
-    row.css('td').inject(0) do |j, col|
-      if j > 0 && !col.attr('class')[/break/i]
-        starttime = DateTime.parse("#{date} 2015 #{time[0]} CEST")
-        endtime = DateTime.parse("#{date} 2015 #{time[1]} CEST")
-        room = headers[j].to_s.strip
-        keynote = col.text[/Keynote/i] ? 'Keynote: ' : ''
-
-        pretitle = col.text
-                   .gsub(/Keynote: /i, '')
-                   .gsub(/(Nocera) H/, '\\1 – H')
-                   .split('–')
-
-        title = (pretitle[1] || pretitle[0]).to_s.strip
-        speaker = pretitle[1] ? pretitle[0].to_s.strip : nil
-        # puts "#{starttime} - #{endtime}: #{room}: #{title}"
-        speakertext = speaker ? " (#{speaker})" : ''
-
-        cal.event do |e|
-          e.dtstart = starttime.new_offset(0)
-          e.dtend = endtime.new_offset(0)
-          e.summary = "#{keynote}#{title.strip}#{speakertext}"
-          # e.description = speaker
-          e.location = room
-        end
-      end
-
-      j + 1
-    end
+  cal.event do |e|
+    e.dtstart = time_start
+    e.dtend = time_end
+    e.summary = "#{keynote}#{title}#{sep}#{speakertext}"
+    e.description = ev.css('abstract').text.strip
+    e.location = ev.css('room').text.strip
   end
-
-  i + 1
 end
 
 puts cal.to_ical
